@@ -1,0 +1,26 @@
+Checks: '-*,
+         bugprone-*,
+         cert-*,
+         clang-analyzer-*,
+         concurrency-*,
+         cppcoreguidelines-*,
+         hicpp-*,
+         misc-*,
+         modernize-*,
+         performance-*,
+         portability-*,
+         readability-*,
+         -bugprone-easily-swappable-parameters,
+         -cppcoreguidelines-non-private-member-variables-in-classes,
+         -hicpp-braces-around-statements,
+         -misc-non-private-member-variables-in-classes,
+         -modernize-use-designated-initializers,
+         -modernize-use-trailing-return-type,
+         -readability-identifier-length,
+         -readability-braces-around-statements,
+         -cppcoreguidelines-avoid-magic-numbers,
+         -readability-magic-numbers
+         '
+
+WarningsAsErrors: '*'
+FormatStyle: none
